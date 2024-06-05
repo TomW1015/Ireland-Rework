@@ -1,0 +1,27 @@
+﻿###########################
+# Irish Events
+###########################
+
+add_namespace = Ireland
+
+# Japanese Stage Border Incident
+country_event = {
+	id = Ireland.1
+	title = "Pro United Ireland videos surfacing online"
+	desc = Ireland.1.d
+	picture = GFX_online_propaganda
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Let people do whatever they want"
+		ai_chance = { factor = 50 }
+		add_stability = -0.10
+	}
+	option = {
+		name = "Crack down and arrest those responsible"
+		ai_chance = { factor = 50 }
+		add_political_power = -100
+		add_stability = 0.05
+	}	
+}

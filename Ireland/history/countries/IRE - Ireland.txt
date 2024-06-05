@@ -298,9 +298,9 @@ set_politics = {
 }
 
 set_popularities = {
-    nationalist = 16
+    nationalist = 21
     conservative = 20
-    social_liberal = 40
+    social_liberal = 35
     social_democrat = 15
     progressive = 5
     democratic_socialist = 3

@@ -66,7 +66,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_sinnfein
-		icon = GFX_focus_generic_treaty
+		icon = GFX_focus_ireland_sinn_fein
 		prerequisite = { focus = IRE_historical }
 		
 		x = 0
@@ -93,7 +93,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_improve_social_relations
-		icon = GFX_goal_generic_intelligence_exchange
+		icon = GFX_focus_ireland_improve_social
 		prerequisite = { focus = IRE_sinnfein }
 		
 		x = -2
@@ -117,7 +117,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_ang
-		icon = GFX_focus_generic_treaty
+		icon = GFX_focus_ireland_acht
 		prerequisite = { focus = IRE_sinnfein }
 		
 		x = 2
@@ -141,7 +141,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_legalisemarriage
-		icon = GFX_focus_generic_treaty
+		icon = GFX_focus_ireland_legalise_marriage
 		prerequisite = { focus = IRE_improve_social_relations }
 		
 		x = 0
@@ -224,7 +224,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_communist_party_ireland
-		icon = GFX_goal_support_fourth_int
+		icon = GFX_focus_ireland_CPI
 		prerequisite = { focus = IRE_a_new_order }
 		mutually_exclusive = {
 			focus = IRE_Democratic_party_ireland
@@ -254,7 +254,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_Democratic_party_ireland
-		icon = GFX_focus_BRA_reach_out_to_military_dem
+		icon = GFX_focus_ireland_DUP
 		prerequisite = { focus = IRE_a_new_order }
 		mutually_exclusive = {
 			focus = IRE_communist_party_ireland
@@ -389,7 +389,7 @@ focus_tree = {
 
 	focus = {
 		id = IRE_reestablish_IRA
-		icon = GFX_focus_ITA_banda_carita
+		icon = GFX_focus_ireland_reestablish_irish_army
 		prerequisite = { focus = IRE_abolish_good_friday }
 		
 		x = -1
@@ -440,7 +440,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_improve_relations
-			icon = GFX_goal_generic_propaganda
+			icon = GFX_focus_ireland_improve_relations
 			prerequisite = { focus = IRE_talk_it_out }
 			
 			x = 1
@@ -467,7 +467,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_nonaggression
-			icon = GFX_goal_generic_propaganda
+			icon = GFX_focus_ireland_nonaggression_pact
 			prerequisite = { focus = IRE_talk_it_out }
 			
 			x = -1
@@ -495,7 +495,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_denis_donaldson
-			icon = GFX_goal_generic_propaganda
+			icon = GFX_focus_ireland_DD_incident
 			prerequisite = { focus = IRE_legalisemarriage }
 			prerequisite = { focus = IRE_improve_teaching }
 			
@@ -570,7 +570,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_bring_NHS
-			icon = GFX_focus_usa_reestablish_the_gold_standard
+			icon = GFX_focus_ireland_bring_nhs
 			prerequisite = { focus = IRE_bring_democracy }
 			
 			x = -1
@@ -595,7 +595,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_joint_exercises
-			icon = GFX_focus_usa_reestablish_the_gold_standard
+			icon = GFX_focus_ireland_joint_air_power
 			prerequisite = { focus = IRE_improve_relations }
 			prerequisite = { focus = IRE_airdoctrine }
 			
@@ -686,7 +686,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_airdoctrine
-			icon = GFX_goal_generic_air_doctrine
+			icon = GFX_focus_ireland_air_doctrine
 			prerequisite = { focus = IRE_Airforce2 }
 	
 			x = -1
@@ -713,7 +713,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_leave_eu
-			icon = GFX_focus_generic_join_comintern
+			icon = GFX_focus_ireland_leave_eu
 			prerequisite = { focus = IRE_communist_party_ireland }
 	
 			x = 0
@@ -737,7 +737,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_oppose_imperialism
-			icon = GFX_focus_ARG_the_american_push
+			icon = GFX_focus_ireland_oppose_imperialism
 			prerequisite = { focus = IRE_leave_eu }
 	
 			x = -1
@@ -767,7 +767,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_oppose_nato
-			icon = GFX_focus_usa_focus_on_europe
+			icon = GFX_focus_ireland_oppose_nato
 			prerequisite = { focus = IRE_leave_eu }
 	
 			x = 1
@@ -825,7 +825,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_bring_democracy
-			icon = GFX_goal_support_democracy
+			icon = GFX_focus_ireland_bring_democracy
 			prerequisite = { focus = IRE_Democratic_party_ireland }
 	
 			x = 0
@@ -858,7 +858,7 @@ focus_tree = {
 			icon = GFX_goal_continuous_air_production
 			prerequisite = { focus = IRE_Airforce }
 	
-			x = 3
+			x = 4
 			y = 1
 			relative_position_id = IRE_Airforce
 
@@ -881,12 +881,13 @@ focus_tree = {
 		}
 
 		focus = {
-			id = IRE_british_fighters
-			icon = GFX_focus_NORDIC_dem_capstone_airforce
+			id = IRE_american_fighters
+			icon = GFX_focus_ireland_american_fighters
 			prerequisite = { focus = IRE_modern_air }
 			mutually_exclusive = { focus = IRE_russian_bombers }
+			mutually_exclusive = { focus = IRE_british_maritime_air }
 	
-			x = -3
+			x = -4
 			y = 1
 			relative_position_id = IRE_modern_air
 
@@ -895,11 +896,16 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				USA = {
+					add_opinion_modifier = {
+					target = IRE
+					modifier = declaration_of_friendship
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = fighter_equipment_2
+					amount = 30
+					producer = USA
 				}
 			}
 	
@@ -910,10 +916,10 @@ focus_tree = {
 
 		focus = {
 			id = IRE_russian_bombers
-			icon = GFX_focus_generic_long_range_aircraft
+			icon = GFX_focus_ireland_russian_bombers
 			prerequisite = { focus = IRE_modern_air }
-			mutually_exclusive = { focus = IRE_british_fighters }
-			mutually_exclusive = { focus = IRE_american_maritime_air }
+			mutually_exclusive = { focus = IRE_american_fighters }
+			mutually_exclusive = { focus = IRE_british_maritime_air }
 	
 			x = 0
 			y = 1
@@ -924,11 +930,16 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				SOV = {
+					add_opinion_modifier = {
+					target = IRE
+					modifier = declaration_of_friendship
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_1
+					amount = 25
+					producer = SOV
 				}
 			}
 	
@@ -938,12 +949,13 @@ focus_tree = {
 		}
 
 		focus = {
-			id = IRE_american_maritime_air
-			icon = GFX_focus_generic_multi_role_aircraft
+			id = IRE_british_maritime_air
+			icon = GFX_focus_ireland_american_maritime
 			prerequisite = { focus = IRE_modern_air }
 			mutually_exclusive = { focus = IRE_russian_bombers }
+			mutually_exclusive = { focus = IRE_american_fighters }
 	
-			x = 3
+			x = 4
 			y = 1
 			relative_position_id = IRE_modern_air
 
@@ -952,11 +964,16 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				ENG = {
+					add_opinion_modifier = {
+					target = IRE
+					modifier = declaration_of_friendship
+					}
+				}
+				add_equipment_to_stockpile = {
+					type = nav_bomber_equipment_2
+					amount = 35
+					producer = ENG
 				}
 			}
 	
@@ -995,7 +1012,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_ban_democracy
-			icon = GFX_focus_renounce_the_treaty_of_trianon
+			icon = GFX_focus_ireland_ban_democracy
 			prerequisite = { focus = IRE_close_borders }
 	
 			x = -1
@@ -1021,7 +1038,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_ban_nationalism
-			icon = GFX_focus_renounce_the_treaty_of_trianon
+			icon = GFX_focus_ireland_ban_fascism
 			prerequisite = { focus = IRE_close_borders }
 	
 			x = 1
@@ -1047,7 +1064,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_refuge_uk_communists
-			icon = GFX_focus_renounce_the_treaty_of_trianon
+			icon = GFX_focus_ireland_refugees
 			prerequisite = { focus = IRE_ban_democracy }
 	
 			x = 0
@@ -1092,6 +1109,327 @@ focus_tree = {
 				}
 			}
 	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_recruit_IRA
+			icon = GFX_focus_ireland_irish_republican_army
+			prerequisite = { focus = IRE_reestablish_IRA }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_reestablish_IRA
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				division_template = {
+                    name = "Provisional IRA"
+                    priority = 2
+                    #division_names_group = SOV_INF_01
+                    regiments = {
+                        marine = { x = 0 y = 0 }
+                        marine = { x = 0 y = 1 }
+                        marine = { x = 0 y = 2 }
+
+                        marine = { x = 1 y = 0 }
+                        marine = { x = 1 y = 1 }
+                        marine = { x = 1 y = 2 }
+
+                        marine = { x = 2 y = 0 }
+                        mot_artillery_brigade = { x = 2 y = 1 }
+                        mot_artillery_brigade = { x = 2 y = 2 }
+                    }
+                    support = {
+                        engineer = { x = 0 y = 0 }
+                        recon = { x = 0 y = 1 }
+                    }
+                }
+                random_owned_controlled_state = {
+                    limit = { ROOT = { has_full_control_of_state = PREV } }
+                    prioritize = { 113 }
+                    create_unit = {
+                        division = "name = \"Provisional IRA 1.\" division_template = \"Provision IRA\" start_experience_factor = 1.0"
+                        owner = IRE
+                    }
+                }
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_buy_guns
+			icon = GFX_focus_ireland_purchase_guns
+			prerequisite = { focus = IRE_renounce_claims }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_renounce_claims
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = SOV
+				}
+				add_equipment_to_stockpile = {
+					type = infantry_equipment
+					amount = 500
+					producer = LBA
+				}
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_village_hall_car_bomb
+			icon = GFX_focus_ireland_village_hall
+			prerequisite = { focus = IRE_car_bombing }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_car_bombing
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_stability = -0.05
+				hidden_effect = {
+					news_event = Ireland_news.2
+				}
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_car_bombing
+			icon = GFX_focus_ireland_car_bombing
+			prerequisite = { focus = IRE_buy_guns }
+			prerequisite = { focus = IRE_recruit_IRA }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_buy_guns
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_stability = -0.05
+				hidden_effect = {
+					news_event = Ireland_news.1
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_online_propaganda
+			icon = GFX_focus_ireland_recruit_ira
+			prerequisite = { focus = IRE_village_hall_car_bomb }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_village_hall_car_bomb
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_political_power = -50
+				hidden_effect = {
+					news_event = Ireland.1
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_learn_from_the_best
+			icon = GFX_focus_ireland_learn_from_best
+			prerequisite = { focus = IRE_american_UAV }
+			prerequisite = { focus = IRE_american_light_fighter }
+	
+			x = 0
+			y = 2
+			relative_position_id = IRE_american_fighters
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_american_UAV
+			icon = GFX_focus_ireland_american_uav
+			prerequisite = { focus = IRE_american_fighters }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_american_fighters
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_american_light_fighter
+			icon = GFX_focus_ireland_american_light_fighters
+			prerequisite = { focus = IRE_american_fighters }
+	
+			x = 1
+			y = 1
+			relative_position_id = IRE_american_fighters
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_british_transport
+			icon = GFX_focus_ireland_british_transport
+			prerequisite = { focus = IRE_british_maritime_air }
+	
+			x = 1
+			y = 1
+			relative_position_id = IRE_british_maritime_air
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_british_recon
+			icon = GFX_focus_ireland_british_reconn
+			prerequisite = { focus = IRE_british_maritime_air }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_british_maritime_air
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_russian_cas
+			icon = GFX_focus_ireland_russian_cas
+			prerequisite = { focus = IRE_russian_bombers }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_russian_bombers
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_doctrine_cost_reduction = {
+					name = air_doctrine_bonus
+					cost_reduction = 0.3
+					uses = 2
+					category = air_doctrine
+				}
+			}
+
 			ai_will_do = {
 				factor = 10
 			}
