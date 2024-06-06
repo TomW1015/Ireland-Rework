@@ -102,6 +102,14 @@
   IRE_british_transport_desc:0 "British Transport Aircraft"
   IRE_closer_eu_ties:0 "Closer ties with the EU"
   IRE_closer_eu_ties_desc:0 "Invest more into the EU and be a loyal member state"
+  IRE_anti_english_agenda:0 "Anti English Agenda"
+  IRE_anti_english_agenda_desc:0 "Why should we like the British after they oppressed our ancestors for decades."
+  IRE_divide_the_schools:0 "Divide the schools"
+  IRE_divide_the_schools_desc:0 "Maybe the pro British pupils should attend their own school."
+  IRE_divide_the_nation:0 "Divide the Nation"
+  IRE_divide_the_nation_desc:0 "Maybe the pro British citizens should leave and go to their favourite country."
+  IRE_article_fifty:0 "Article 50"
+  IRE_article_fifty_desc:0 "Leave the European Union"
 
 
   ## Ideas
@@ -109,6 +117,15 @@
   IRE_Good_Friday_desc:0 "The Good Friday Agreement or Belfast Agreement is a pair of agreements signed on 10 April, Good Friday, 1998, that ended most of the violence of the Troubles."
   IRE_NHS:0 "National Health Service"
   IRE_NHS_desc:0 "Input Text Here"
+  IRE_anti_english_agenda:0 "Anti English Agenda"
+  IRE_anti_english_agenda_desc:0 "After decades of being oppressed by the British Empire, the Irish people and government is without a doubt angry at the British people and government. The british people, for decades, have looked down upon the Irish people and that shall continue no more."
+  IRE_divided_schools:0 "Divided Schools"
+  IRE_divided_schools_desc:0 "The government has decided that the Pro-british pupils dont deserve the outstanding Irish Education. Instead they will be placed in their own Pro-Irish schools that will provide the correction of thought and understanding."
+  IRE_irish_republican_army:0 "Irish Republican Army"
+  IRE_irish_republican_army_desc:0 "The Provisional Irish Republican Army, officially known as the Irish Republican Army and informally known as the Provos, was an Irish republican paramilitary force that sought to end British rule in Northern Ireland, facilitate Irish reunification and bring about an independent republic encompassing all of Ireland."
+
+  ## Characters
+  IRE_thomas_murphy:0 "Thomas 'Slab' Murphy"
 
   ## Country Events
   Ireland.1.d:0 "With the rise of terror in Northern Ireland, many videos promoting Irish unity have surfaced online. These videos are believed to have first been spread around on a social app called 'Discord'. They then started getting spread on other social media apps, many youths getting involved due to this. People are unsure on how this will effect the current situation but many people are claiming this is the return of The Troubles."

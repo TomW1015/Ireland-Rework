@@ -14,6 +14,7 @@ ideas = {
 				political_power_factor = -0.1
 				industrial_capacity_factory = -0.1
 				stability_weekly = -0.001
+				war_support_factor = -0.05
 			}
 			
 		}
@@ -33,6 +34,81 @@ ideas = {
 				monthly_population = 0.1
 				political_power_gain = -0.05
 				stability_weekly = 0.01
+			}
+			
+		}
+	}
+
+	country = {
+	
+		IRE_anti_english_agenda = {
+		
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				political_power_gain = 0.10
+				stability_weekly = -0.025
+			}
+			
+		}
+	}
+
+	country = {
+	
+		IRE_divided_schools = {
+		
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.2
+				industrial_capacity_factory = -0.05
+				political_power_gain = 0.10
+				research_speed_factor = -0.10
+			}
+			
+		}
+	}
+
+	country = {
+	
+		IRE_irish_republican_army = {
+		
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				fascist_drift = 0.04
+				stability_weekly = -0.01
+			}
+			
+		}
+	}
+
+	country = {
+	
+		IRE_banned_parties = {
+		
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				production_speed_industrial_complex_factor = -0.15
+				production_speed_military_complex_factor = -0.15
+				political_power_gain = 0.25
 			}
 			
 		}

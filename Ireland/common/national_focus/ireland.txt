@@ -404,6 +404,10 @@ focus_tree = {
 		
 		completion_reward = {
 			add_manpower = 2000
+			add_timed_idea = {
+				idea = IRE_irish_republican_army
+				days = 180
+			}
 		}
 			
 		ai_will_do = {
@@ -1013,22 +1017,18 @@ focus_tree = {
 		focus = {
 			id = IRE_ban_democracy
 			icon = GFX_focus_ireland_ban_democracy
-			prerequisite = { focus = IRE_close_borders }
+			prerequisite = { focus = IRE_ban_nationalism }
 	
-			x = -1
+			x = 0
 			y = 1
-			relative_position_id = IRE_close_borders
+			relative_position_id = IRE_ban_nationalism
 
 			cost = 10
 
 			available = {}
 	
 			completion_reward = {
-				add_stability = -0.05
-				add_popularity = {
-					ideology = conservative
-					popularity = -0.10
-				}
+				add_ideas = IRE_banned_parties
 			}
 	
 			ai_will_do = {
@@ -1041,7 +1041,7 @@ focus_tree = {
 			icon = GFX_focus_ireland_ban_fascism
 			prerequisite = { focus = IRE_close_borders }
 	
-			x = 1
+			x = 0
 			y = 1
 			relative_position_id = IRE_close_borders
 
@@ -1067,7 +1067,7 @@ focus_tree = {
 			icon = GFX_focus_ireland_refugees
 			prerequisite = { focus = IRE_ban_democracy }
 	
-			x = 0
+			x = -1
 			y = 1
 			relative_position_id = IRE_ban_democracy
 
@@ -1091,11 +1091,11 @@ focus_tree = {
 		focus = {
 			id = IRE_communist_propaganda_uk
 			icon = GFX_focus_renounce_the_treaty_of_trianon
-			prerequisite = { focus = IRE_ban_nationalism }
+			prerequisite = { focus = IRE_ban_democracy }
 	
-			x = 0
+			x = 1
 			y = 1
-			relative_position_id = IRE_ban_nationalism
+			relative_position_id = IRE_ban_democracy
 
 			cost = 10
 
@@ -1428,9 +1428,115 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_to_variable = { NVX_ECO_health = -1 tooltip = additional_economic_health_1
+				add_to_variable = { NVX_ECO_health = -1 tooltip = additional_economic_health_1 }
 			}
 
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_article_fifty
+			icon = GFX_focus_ireland_article_fifty
+			prerequisite = { focus = IRE_end_boycott }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_end_boycott
+
+			cost = 10
+
+			available = {
+				has_government = nationalist
+			}
+	
+			completion_reward = {
+				remove_ideas = idea_eu_member
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_anti_english_agenda
+			icon = GFX_focus_ireland_anti_english
+			prerequisite = { focus = IRE_article_fifty }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_article_fifty
+
+			cost = 10
+
+			available = {
+			}
+	
+			completion_reward = {
+				add_ideas = IRE_anti_english_agenda
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_divide_the_schools
+			icon = GFX_focus_ireland_divide_the_schools
+			prerequisite = { focus = IRE_anti_english_agenda }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_anti_english_agenda
+
+			cost = 10
+
+			available = {
+			}
+	
+			completion_reward = {
+				add_timed_idea = {
+					idea = IRE_divided_schools
+					days = 180
+				}
+				ENG = {
+					add_opinion_modifier = {
+					target = IRE
+					modifier = refused_help
+					}
+				}
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_divide_the_nation
+			icon = GFX_focus_ireland_divide_the_nation
+			prerequisite = { focus = IRE_anti_english_agenda }
+	
+			x = 1
+			y = 1
+			relative_position_id = IRE_anti_english_agenda
+
+			cost = 10
+
+			available = {
+			}
+	
+			completion_reward = {
+				ENG = {
+					add_opinion_modifier = {
+					target = IRE
+					modifier = closed_borders
+					}
+			}
+	
 			ai_will_do = {
 				factor = 10
 			}
