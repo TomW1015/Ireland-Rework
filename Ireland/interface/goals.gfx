@@ -177,6 +177,11 @@ spriteTypes = {
 	texturefile = "gfx/interface/goals/focus_ireland_british_reconn.dds"			
 	}
 	
+	SpriteType = {
+	name = "GFX_focus_ireland_closer_eu_ties"
+	texturefile = "gfx/interface/goals/focus_ireland_closer_eu_ties.dds"			
+	}
+	
 	#### Generic continuous goal icons
 
 	SpriteType = {

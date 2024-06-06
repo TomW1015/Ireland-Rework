@@ -1116,7 +1116,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_recruit_IRA
-			icon = GFX_focus_ireland_irish_republican_army
+			icon = GFX_focus_ireland_recruit_ira
 			prerequisite = { focus = IRE_reestablish_IRA }
 	
 			x = 0
@@ -1341,6 +1341,11 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = fighter_equipment_3
+					amount = 30
+					producer = USA
+				}
 				add_doctrine_cost_reduction = {
 					name = air_doctrine_bonus
 					cost_reduction = 0.3
@@ -1409,25 +1414,21 @@ focus_tree = {
 		}
 
 		focus = {
-			id = IRE_russian_cas
-			icon = GFX_focus_ireland_russian_cas
-			prerequisite = { focus = IRE_russian_bombers }
+			id = IRE_closer_eu_ties
+			icon = GFX_focus_ireland_closer_eu_ties
+			prerequisite = { focus = IRE_bring_NHS }
+			prerequisite = { focus = IRE_Novemberdeal }
 	
-			x = -1
+			x = 1
 			y = 1
-			relative_position_id = IRE_russian_bombers
+			relative_position_id = IRE_bring_NHS
 
 			cost = 10
 
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
-				}
+				add_to_variable = { NVX_ECO_health = -1 tooltip = additional_economic_health_1
 			}
 
 			ai_will_do = {
