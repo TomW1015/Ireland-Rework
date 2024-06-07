@@ -1,0 +1,12 @@
+spriteTypes = {	
+
+	SpriteType = {
+	name = "GFX_ireland_idea_anti_russia"
+	texturefile = "gfx/interface/ideas/ireland_idea_anti_russia.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_ireland_idea_anti_china"
+	texturefile = "gfx/interface/ideas/ireland_idea_anti_china.dds"			
+	}
+

@@ -113,4 +113,67 @@ ideas = {
 			
 		}
 	}
+
+	country = {
+	
+		IRE_idea_anti_china_agenda = {
+		
+			picture = GFX_ireland_idea_anti_china
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				political_power_gain = -0.10
+				stability_weekly_factor = 0.001
+				war_support_factor = 0.05
+				communist_drift = -0.04
+			}
+			
+		}
+	}
+
+	country = {
+	
+		IRE_idea_anti_russia_agenda = {
+		
+			picture = GFX_ireland_idea_anti_russia
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				political_power_gain = -0.10
+				stability_weekly_factor = 0.001
+				reactionary_drift = -0.04
+			}
+
+		}
+	}
+
+	country = {
+	
+		IRE_under_developed_navy = {
+		
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				naval_coordination = -0.10
+				naval_detection = -0.05
+				spotting_chance = -0.10
+				convoy_raiding_efficiency_factor = -0.15
+				naval_strike_attack_factor = -0.05
+				navy_submarine_attack_factor = -0.05
+				navy_capital_ship_attack_factor = -0.10
+				naval_morale_factor = -0.15
+			}
+
+		}
+	}
 }

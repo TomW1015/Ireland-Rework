@@ -88,11 +88,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_focus_ireland_democracy"
-	texturefile = "gfx/interface/goals/focus_ireland_democracy.dds"			
-	}
-	
-	SpriteType = {
 	name = "GFX_focus_ireland_sinn_fein"
 	texturefile = "gfx/interface/goals/focus_ireland_sinn_fein.dds"			
 	}
@@ -153,16 +148,6 @@ spriteTypes = {
 	}
 	
 	SpriteType = {
-	name = "GFX_focus_ireland_russian_cas"
-	texturefile = "gfx/interface/goals/focus_ireland_russian_cas.dds"			
-	}
-	
-	SpriteType = {
-	name = "GFX_focus_ireland_irish_republican_army"
-	texturefile = "gfx/interface/goals/focus_ireland_irish_republican_army.dds"			
-	}
-	
-	SpriteType = {
 	name = "GFX_focus_ireland_bring_democracy"
 	texturefile = "gfx/interface/goals/focus_ireland_bring_democracy.dds"			
 	}
@@ -200,6 +185,21 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_ireland_divide_the_nation"
 	texturefile = "gfx/interface/goals/focus_ireland_divide_the_nation.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_ireland_talks_with_nato"
+	texturefile = "gfx/interface/goals/focus_ireland_talks_with_nato.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_ireland_anti_russia_agenda"
+	texturefile = "gfx/interface/goals/focus_ireland_anti_russia_agenda.dds"			
+	}
+	
+	SpriteType = {
+	name = "GFX_focus_ireland_anti_china_agenda"
+	texturefile = "gfx/interface/goals/focus_ireland_anti_china_agenda.dds"			
 	}
 	
 	#### Generic continuous goal icons

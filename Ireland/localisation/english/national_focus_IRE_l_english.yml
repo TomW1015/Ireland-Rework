@@ -110,6 +110,12 @@
   IRE_divide_the_nation_desc:0 "Maybe the pro British citizens should leave and go to their favourite country."
   IRE_article_fifty:0 "Article 50"
   IRE_article_fifty_desc:0 "Leave the European Union"
+  IRE_talks_with_nato:0 "Begin NATO talks"
+  IRE_talks_with_nato_desc:0 "I think its time we started thinking about joining our fellow westerners in NATO."
+  IRE_anti_china_agenda:0 "Anti-China Ways"
+  IRE_anti_china_agenda_desc:0 "Adopt the thoughts and ways of the westerners"
+  IRE_anti_russia_agenda:0 "Anti-Russia Ways"
+  IRE_anti_russia_agenda_desc:0 "Adopt the thoughts and ways of the westeners"
 
 
   ## Ideas
@@ -123,6 +129,10 @@
   IRE_divided_schools_desc:0 "The government has decided that the Pro-british pupils dont deserve the outstanding Irish Education. Instead they will be placed in their own Pro-Irish schools that will provide the correction of thought and understanding."
   IRE_irish_republican_army:0 "Irish Republican Army"
   IRE_irish_republican_army_desc:0 "The Provisional Irish Republican Army, officially known as the Irish Republican Army and informally known as the Provos, was an Irish republican paramilitary force that sought to end British rule in Northern Ireland, facilitate Irish reunification and bring about an independent republic encompassing all of Ireland."
+  IRE_idea_anti_russia_agenda:0 "Anti-Russia Ways"
+  IRE_idea_anti_russia_agemda_desc:0 "Adopt the Anti Russia thoughts and beliefs that the western nations have"
+  IRE_idea_anti_china_agenda:0 "Anti-China Ways"
+  IRE_idea_anti_china_agenda_desc:0 "Adopt the Anti China thoughts and beliefs of the Westerners"
 
   ## Characters
   IRE_thomas_murphy:0 "Thomas 'Slab' Murphy"
