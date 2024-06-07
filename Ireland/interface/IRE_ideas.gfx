@@ -2,11 +2,30 @@ spriteTypes = {
 
 	SpriteType = {
 	name = "GFX_ireland_idea_anti_russia"
-	texturefile = "gfx/interface/ideas/ireland_idea_anti_russia.dds"			
+	texturefile = "gfx/interface/ideas/ireland/ireland_idea_anti_russia.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_ireland_idea_anti_china"
-	texturefile = "gfx/interface/ideas/ireland_idea_anti_china.dds"			
+	texturefile = "gfx/interface/ideas/ireland/ireland_idea_anti_china.dds"			
 	}
 
+	SpriteType = {
+		name = "GFX_ireland_ideas_nhs"
+		texturefile = "gfx/interface/ideas/ireland/ireland_ideas_nhs.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ireland_idea_irish_republican_army"
+		texturefile = "gfx/interface/ideas/ireland/ireland_idea_irish_republican_army.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ireland_idea_banned_parties"
+		texturefile = "gfx/interface/ideas/ireland/ireland_idea_banned_parties.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_ireland_idea_under_developed_navy"
+		texturefile = "gfx/interface/ideas/ireland/ireland_idea_under_developed_navy.dds"			
+	}

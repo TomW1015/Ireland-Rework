@@ -1584,7 +1584,7 @@ focus_tree = {
 
 		focus = {
 			id = IRE_anti_china_agenda
-			icon = GFX_focus_anti_china_agenda
+			icon = GFX_focus_ireland_anti_china_agenda
 			prerequisite = { focus = IRE_talks_with_nato }
 	
 			x = -1

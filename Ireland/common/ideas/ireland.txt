@@ -24,7 +24,7 @@ ideas = {
 	
 		IRE_NHS = {
 		
-			picture = tfv_can_conscription_crisis
+			picture = GFX_ireland_ideas_nhs
 			
 			allowed = {
 				original_tag = IRE
@@ -81,7 +81,7 @@ ideas = {
 	
 		IRE_irish_republican_army = {
 		
-			picture = tfv_can_conscription_crisis
+			picture = GFX_ireland_idea_irish_republican_army
 			
 			allowed = {
 				original_tag = IRE
@@ -99,7 +99,7 @@ ideas = {
 	
 		IRE_banned_parties = {
 		
-			picture = tfv_can_conscription_crisis
+			picture = GFX_ireland_idea_banned_parties
 			
 			allowed = {
 				original_tag = IRE
@@ -157,7 +157,7 @@ ideas = {
 	
 		IRE_under_developed_navy = {
 		
-			picture = tfv_can_conscription_crisis
+			picture = GFX_ireland_idea_under_developed_navy
 			
 			allowed = {
 				original_tag = IRE

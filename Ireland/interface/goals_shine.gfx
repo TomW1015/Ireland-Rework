@@ -4,7 +4,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_recruit_ira_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_recruit_ira.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_recruit_ira.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -36,7 +36,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "focus_ireland_improve_relations_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_improve_relations.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_improve_relations.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -68,7 +68,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "focus_ireland_village_hall_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_village_hall.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_village_hall.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -100,7 +100,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_purchase_guns_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_purchase_guns.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_purchase_guns.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -132,7 +132,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_car_bombing_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_car_bombing.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_car_bombing.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -164,7 +164,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_oppose_imperialism_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_oppose_imperialism.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_oppose_imperialism.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -196,7 +196,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_ban_fascism_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_ban_fascism.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_ban_fascism.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -228,7 +228,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_leave_eu_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_leave_eu.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_leave_eu.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -260,7 +260,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_bring_nhs_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_bring_nhs.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_bring_nhs.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -292,7 +292,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_oppose_nato_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_oppose_nato.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_oppose_nato.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -324,7 +324,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_legalise_marriage_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_legalise_marriage.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_legalise_marriage.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -356,7 +356,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_refugees_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_refugees.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_refugees.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -388,7 +388,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_american_fighters_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_american_fighters.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_american_fighters.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -420,7 +420,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_russian_bombers_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_russian_bombers.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_russian_bombers.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -452,7 +452,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_american_maritime_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_american_maritime.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_american_maritime.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -484,7 +484,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_nonaggression_pact_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_nonaggression_pact.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_nonaggression_pact.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -516,7 +516,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_air_doctrine_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_air_doctrine.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_air_doctrine.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -548,7 +548,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_sinn_fein_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_sinn_fein.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_sinn_fein.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -580,7 +580,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_CPI_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_CPI.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_CPI.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -612,7 +612,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_DUP_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_DUP.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_DUP.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -644,7 +644,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_learn_from_best_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_learn_from_best.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_learn_from_best.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -676,7 +676,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_american_uav_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_american_uav.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_american_uav.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -708,7 +708,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_american_light_fighters_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_american_light_fighters.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_american_light_fighters.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -740,7 +740,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_british_transport_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_british_transport.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_british_transport.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -772,7 +772,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_joint_air_power_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_joint_air_power.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_joint_air_power.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -804,7 +804,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_acht_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_acht.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_acht.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -836,7 +836,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_improve_social_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_improve_social.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_improve_social.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -868,7 +868,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_DD_incident_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_DD_incident.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_DD_incident.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -900,7 +900,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_ban_democracy_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_ban_democracy.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_ban_democracy.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -932,7 +932,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_bring_democracy_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_bring_democracy.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_bring_democracy.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -964,7 +964,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_reestablish_irish_army_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_reestablish_irish_army.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_reestablish_irish_army.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -996,7 +996,7 @@ spriteTypes = {
 
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_british_reconn_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_british_reconn.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_british_reconn.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1028,7 +1028,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_closer_eu_ties_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_closer_eu_ties.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_closer_eu_ties.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1060,7 +1060,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_article_fifty_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_article_fifty.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_article_fifty.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1092,7 +1092,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_divide_the_nation_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_divide_the_nation.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_divide_the_nation.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1124,7 +1124,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_divide_the_schools_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_divide_the_schools.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_divide_the_schools.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1156,7 +1156,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_anti_english_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_anti_english.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_english.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1188,7 +1188,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_talks_with_nato_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_talks_with_nato.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_talks_with_nato.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1220,7 +1220,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_anti_russia_agenda_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_anti_russia_agenda.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_russia_agenda.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -1252,7 +1252,7 @@ spriteTypes = {
 	
 	SpriteType = {
 		name = "GFX_FX_focus_ireland_anti_china_agenda_shine"
-		texturefile = "gfx/interface/goals/focus_ireland_anti_china_agenda.dds"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_china_agenda.dds"
 				effectFile = "gfx/FX/buttonstate.lua"
 		animation = {
 			animationmaskfile = "gfx/interface/goals/goal_unknown.dds"
@@ -2396,38 +2396,6 @@ spriteTypes = {
 
 		animation = {
 			animationmaskfile = "gfx/interface/goals/focus_generic_strike_at_democracy1.dds"			
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-		legacy_lazy_load = no
-	}
-	
-	SpriteType = {
-		name = "GFX_focus_generic_anti_fascist_diplomacy_shine"
-		texturefile = "gfx/interface/goals/focus_generic_anti_fascist_diplomacy.dds"			
-		effectFile = "gfx/FX/buttonstate.lua"
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_anti_fascist_diplomacy.dds"			
-			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
-			animationrotation = -90.0		# -90 clockwise 90 counterclockwise(by default)
-			animationlooping = no			# yes or no ;)
-			animationtime = 0.75				# in seconds
-			animationdelay = 0			# in seconds
-			animationblendmode = "add"       #add, multiply, overlay
-			animationtype = "scrolling"      #scrolling, rotating, pulsing
-			animationrotationoffset = { x = 0.0 y = 0.0 }
-			animationtexturescale = { x = 1.0 y = 1.0 } 
-		}
-
-		animation = {
-			animationmaskfile = "gfx/interface/goals/focus_generic_anti_fascist_diplomacy.dds"			
 			animationtexturefile = "gfx/interface/goals/shine_overlay.dds" 	# <- the animated file
 			animationrotation = 90.0		# -90 clockwise 90 counterclockwise(by default)
 			animationlooping = no			# yes or no ;)

@@ -4,202 +4,202 @@ spriteTypes = {
 
 	SpriteType = {
 	name = "GFX_focus_ireland_recruit_ira"
-	texturefile = "gfx/interface/goals/focus_ireland_recruit_ira.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_recruit_ira.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_improve_relations"
-	texturefile = "gfx/interface/goals/focus_ireland_improve_relations.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_improve_relations.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_village_hall"
-	texturefile = "gfx/interface/goals/focus_ireland_village_hall.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_village_hall.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_purchase_guns"
-	texturefile = "gfx/interface/goals/focus_ireland_purchase_guns.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_purchase_guns.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_car_bombing"
-	texturefile = "gfx/interface/goals/focus_ireland_car_bombing.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_car_bombing.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_oppose_imperialism"
-	texturefile = "gfx/interface/goals/focus_ireland_oppose_imperialism.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_oppose_imperialism.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_ban_fascism"
-	texturefile = "gfx/interface/goals/focus_ireland_ban_fascism.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_ban_fascism.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_leave_eu"
-	texturefile = "gfx/interface/goals/focus_ireland_leave_eu.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_leave_eu.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_bring_nhs"
-	texturefile = "gfx/interface/goals/focus_ireland_bring_nhs.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_bring_nhs.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_oppose_nato"
-	texturefile = "gfx/interface/goals/focus_ireland_oppose_nato.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_oppose_nato.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_legalise_marriage"
-	texturefile = "gfx/interface/goals/focus_ireland_legalise_marriage.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_legalise_marriage.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_refugees"
-	texturefile = "gfx/interface/goals/focus_ireland_refugees.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_refugees.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_american_fighters"
-	texturefile = "gfx/interface/goals/focus_ireland_american_fighters.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_american_fighters.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_russian_bombers"
-	texturefile = "gfx/interface/goals/focus_ireland_russian_bombers.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_russian_bombers.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_american_maritime"
-	texturefile = "gfx/interface/goals/focus_ireland_american_maritime.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_american_maritime.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_nonaggression_pact"
-	texturefile = "gfx/interface/goals/focus_ireland_nonaggression_pact.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_nonaggression_pact.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_air_doctrine"
-	texturefile = "gfx/interface/goals/focus_ireland_air_doctrine.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_air_doctrine.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_sinn_fein"
-	texturefile = "gfx/interface/goals/focus_ireland_sinn_fein.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_sinn_fein.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_CPI"
-	texturefile = "gfx/interface/goals/focus_ireland_CPI.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_CPI.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_DUP"
-	texturefile = "gfx/interface/goals/focus_ireland_DUP.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_DUP.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_learn_from_best"
-	texturefile = "gfx/interface/goals/focus_ireland_learn_from_best.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_learn_from_best.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_american_uav"
-	texturefile = "gfx/interface/goals/focus_ireland_american_uav.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_american_uav.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_british_transport"
-	texturefile = "gfx/interface/goals/focus_ireland_british_transport.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_british_transport.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_american_light_fighters"
-	texturefile = "gfx/interface/goals/focus_ireland_american_light_fighters.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_american_light_fighters.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_joint_air_power"
-	texturefile = "gfx/interface/goals/focus_ireland_joint_air_power.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_joint_air_power.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_acht"
-	texturefile = "gfx/interface/goals/focus_ireland_acht.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_acht.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_improve_social"
-	texturefile = "gfx/interface/goals/focus_ireland_improve_social.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_improve_social.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_DD_incident"
-	texturefile = "gfx/interface/goals/focus_ireland_DD_incident.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_DD_incident.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_ban_democracy"
-	texturefile = "gfx/interface/goals/focus_ireland_ban_democracy.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_ban_democracy.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_bring_democracy"
-	texturefile = "gfx/interface/goals/focus_ireland_bring_democracy.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_bring_democracy.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_reestablish_irish_army"
-	texturefile = "gfx/interface/goals/focus_ireland_reestablish_irish_army.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_reestablish_irish_army.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_british_reconn"
-	texturefile = "gfx/interface/goals/focus_ireland_british_reconn.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_british_reconn.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_closer_eu_ties"
-	texturefile = "gfx/interface/goals/focus_ireland_closer_eu_ties.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_closer_eu_ties.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_article_fifty"
-	texturefile = "gfx/interface/goals/focus_ireland_article_fifty.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_article_fifty.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_anti_english"
-	texturefile = "gfx/interface/goals/focus_ireland_anti_english.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_english.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_divide_the_schools"
-	texturefile = "gfx/interface/goals/focus_ireland_divide_the_schools.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_divide_the_schools.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_divide_the_nation"
-	texturefile = "gfx/interface/goals/focus_ireland_divide_the_nation.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_divide_the_nation.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_talks_with_nato"
-	texturefile = "gfx/interface/goals/focus_ireland_talks_with_nato.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_talks_with_nato.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_anti_russia_agenda"
-	texturefile = "gfx/interface/goals/focus_ireland_anti_russia_agenda.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_russia_agenda.dds"			
 	}
 	
 	SpriteType = {
 	name = "GFX_focus_ireland_anti_china_agenda"
-	texturefile = "gfx/interface/goals/focus_ireland_anti_china_agenda.dds"			
+	texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_china_agenda.dds"			
 	}
 	
 	#### Generic continuous goal icons
@@ -374,11 +374,6 @@ spriteTypes = {
 	SpriteType = {
 	name = "GFX_focus_generic_strike_at_democracy1"
 	texturefile = "gfx/interface/goals/focus_generic_strike_at_democracy1.dds"			
-	}	
-	
-	SpriteType = {
-	name = "GFX_focus_generic_anti_fascist_diplomacy"
-	texturefile = "gfx/interface/goals/focus_generic_anti_fascist_diplomacy.dds"			
 	}	
 	
 	SpriteType = {
