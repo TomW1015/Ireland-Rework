@@ -116,6 +116,8 @@
   IRE_anti_china_agenda_desc:0 "Adopt the thoughts and ways of the westerners"
   IRE_anti_russia_agenda:0 "Anti-Russia Ways"
   IRE_anti_russia_agenda_desc:0 "Adopt the thoughts and ways of the westeners"
+  IRE_communist_nation:0 "A Communist Nation"
+  IRE_communist_nation_desc:0 "Thank god we got rid of those nationalists"
 
 
   ## Ideas
@@ -133,12 +135,15 @@
   IRE_idea_anti_russia_agemda_desc:0 "Adopt the Anti Russia thoughts and beliefs that the western nations have"
   IRE_idea_anti_china_agenda:0 "Anti-China Ways"
   IRE_idea_anti_china_agenda_desc:0 "Adopt the Anti China thoughts and beliefs of the Westerners"
+  IRE_under_developed_navy:0 "Under Developed Navy"
+  IRE_under_developed_navy_desc:0 "Due to being a small economy the Navy of Ireland is very smalled and under developed. We lack modern ships and things related. We should work on that."
 
   ## Characters
   IRE_thomas_murphy:0 "Thomas 'Slab' Murphy"
 
   ## Country Events
   Ireland.1.d:0 "With the rise of terror in Northern Ireland, many videos promoting Irish unity have surfaced online. These videos are believed to have first been spread around on a social app called 'Discord'. They then started getting spread on other social media apps, many youths getting involved due to this. People are unsure on how this will effect the current situation but many people are claiming this is the return of The Troubles."
+  Ireland.2.d:0 "Rumours of the IRA's return have been going around many small towns at the momemt. Lots of people are saying this is a good thing after the poor handling of the troubles. However, many people are saying this is really bad and they need to go back into hiding or be arrested for all the things they have done. Either way it will be down to the government to handle."
 
   ## News Events
   Ireland_news.1.d:0 "A car bomb has been set off in Belfast, Northern Ireland. Emergency services arrived on scene soon after the explosion, as well as British Armed Forces stationed nearby. A bomb disposal unit cleared the car of any more explosives and took any evidence of the bomb that was left, safely with them. Paramedics that arrived declared 83 people injured and 11 dead. Nobody is yet to take responsibility for this act of terror however the British Government have set their suspiscions on the IRA after their recent return to the world."

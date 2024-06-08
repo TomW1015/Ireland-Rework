@@ -408,6 +408,9 @@ focus_tree = {
 				idea = IRE_irish_republican_army
 				days = 180
 			}
+			hidden_effect = {
+				news_event = Ireland.2
+			}
 		}
 			
 		ai_will_do = {
@@ -718,11 +721,11 @@ focus_tree = {
 		focus = {
 			id = IRE_leave_eu
 			icon = GFX_focus_ireland_leave_eu
-			prerequisite = { focus = IRE_communist_party_ireland }
+			prerequisite = { focus = IRE_communist_nation }
 	
 			x = 0
 			y = 1
-			relative_position_id = IRE_communist_party_ireland
+			relative_position_id = IRE_communist_nation
 
 			cost = 10
 
@@ -1619,6 +1622,38 @@ focus_tree = {
 	
 			completion_reward = {
 				add_ideas = IRE_idea_anti_russia_agenda
+			}
+	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_communist_nation
+			icon = GFX_focus_ireland_CPI
+			prerequisite = { focus = IRE_communist_party_ireland }
+	
+			x = 0
+			y = 1
+			relative_position_id = IRE_communist_party_ireland
+
+			cost = 10
+
+			available = {
+				has_government = communist
+			}
+	
+			completion_reward = {
+				every_country = {
+					limit = {
+						has_idea = NATO_member
+					}
+				}
+				add_opinion_modifier = {
+					target = IRE
+					modifier = communist_diplomacy
+				}
 			}
 	
 			ai_will_do = {

@@ -23,8 +23,7 @@ ideas = {
 	country = {
 	
 		IRE_NHS = {
-		
-			picture = GFX_ireland_ideas_nhs
+			picture = nhs
 			
 			allowed = {
 				original_tag = IRE
@@ -80,8 +79,7 @@ ideas = {
 	country = {
 	
 		IRE_irish_republican_army = {
-		
-			picture = GFX_ireland_idea_irish_republican_army
+			picture = irish_republican_army
 			
 			allowed = {
 				original_tag = IRE
@@ -98,8 +96,7 @@ ideas = {
 	country = {
 	
 		IRE_banned_parties = {
-		
-			picture = GFX_ireland_idea_banned_parties
+			picture = banned_parties
 			
 			allowed = {
 				original_tag = IRE
@@ -107,7 +104,7 @@ ideas = {
 			
 			modifier = {
 				production_speed_industrial_complex_factor = -0.15
-				production_speed_military_complex_factor = -0.15
+				production_factory_max_efficiency_factor = -0.11
 				political_power_gain = 0.25
 			}
 			
@@ -117,8 +114,7 @@ ideas = {
 	country = {
 	
 		IRE_idea_anti_china_agenda = {
-		
-			picture = GFX_ireland_idea_anti_china
+			picture = anti_china_agenda
 			
 			allowed = {
 				original_tag = IRE
@@ -137,8 +133,7 @@ ideas = {
 	country = {
 	
 		IRE_idea_anti_russia_agenda = {
-		
-			picture = GFX_ireland_idea_anti_russia
+			picture = anti_russia_agenda
 			
 			allowed = {
 				original_tag = IRE
@@ -156,8 +151,7 @@ ideas = {
 	country = {
 	
 		IRE_under_developed_navy = {
-		
-			picture = GFX_ireland_idea_under_developed_navy
+			picture = under_developed_navy
 			
 			allowed = {
 				original_tag = IRE
@@ -172,6 +166,44 @@ ideas = {
 				navy_submarine_attack_factor = -0.05
 				navy_capital_ship_attack_factor = -0.10
 				naval_morale_factor = -0.15
+			}
+
+		}
+	}
+
+	country = {
+	
+		IRE_lack_of_control = {
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				stability_weekly_factor = -0.05
+				war_support_factor = 0.05
+				production_speed_industrial_complex_factor = -0.08
+				production_factory_max_efficiency_factor = -0.07
+			}
+
+		}
+	}
+
+	country = {
+	
+		IRE_lack_of_free_speech = {
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				political_power_factor = 0.10
+				stability_weekly_factor = -0.05
+				war_support_factor = 0.05
+				production_speed_industrial_complex_factor = -0.08
 			}
 
 		}

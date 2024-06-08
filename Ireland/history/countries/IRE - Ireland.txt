@@ -301,11 +301,11 @@ set_politics = {
 set_popularities = {
     nationalist = 21
     conservative = 20
-    social_liberal = 35
+    social_liberal = 28
     social_democrat = 15
-    progressive = 5
+    progressive = 2
     democratic_socialist = 3
-    communist = 1
+    communist = 11
 }
 
 recruit_character = IRE_bertie_ahern
