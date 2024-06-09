@@ -208,4 +208,24 @@ ideas = {
 
 		}
 	}
+
+	country = {
+	
+		IRE_better_teaching = {
+			picture = tfv_can_conscription_crisis
+			
+			allowed = {
+				original_tag = IRE
+			}
+			
+			modifier = {
+				political_power_factor = 0.10
+				stability_weekly_factor = -0.05
+				production_speed_industrial_complex_factor = 0.06
+				research_speed_factor = 0.5
+				production_factory_max_efficiency_factor = 0.05
+			}
+
+		}
+	}
 }

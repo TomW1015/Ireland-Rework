@@ -140,7 +140,9 @@
   IRE_lack_of_control:0 "Lack of control"
   IRE_lack_of_control_desc:0 "The government has a lack of control over their citizens. This can lead to all kinds of issues including a coup if its gets too bad."
   IRE_lack_of_free_speech:0 "Lack of free speech"
-  IRE_lack_of_free_speech_desc:0 "As a democratic nation the citizens of Ireland have the right of free speech. The government has now arrested people for speaking up. This can be bad, leading to all types of things including people rising up against the government. "
+  IRE_lack_of_free_speech_desc:0 "As a democratic nation the citizens of Ireland have the right of free speech. The government has now arrested people for speaking up. This can be bad, leading to all types of things including people rising up against the government."
+  IRE_better_teaching:0 "Better Teaching"
+  IRE_better_teaching_desc:0 "With this new educating plan our students are learning a lot more compared to what they were learning before."
 
   ## Characters
   IRE_thomas_murphy:0 "Thomas 'Slab' Murphy"
