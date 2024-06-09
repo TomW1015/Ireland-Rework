@@ -80,6 +80,9 @@ focus_tree = {
 		}
 		
 		completion_reward = {
+			hidden_effect {
+				news_event= Ireland.3
+			}
 			add_popularity = {
 				ideology = nationalist
 				popularity = 0.05
@@ -844,6 +847,9 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
+				hidden_effect {
+					news_event = Ireland_news.4
+				}
 				every_country = {
 					limit = {
 						has_idea = NATO_member
@@ -1645,6 +1651,9 @@ focus_tree = {
 			}
 	
 			completion_reward = {
+				hidden_effect {
+					news_event = Ireland_news.3
+				}
 				every_country = {
 					limit = {
 						has_idea = NATO_member
@@ -1661,4 +1670,4 @@ focus_tree = {
 			}
 		}
 	}
-}	
+}

@@ -137,6 +137,10 @@
   IRE_idea_anti_china_agenda_desc:0 "Adopt the Anti China thoughts and beliefs of the Westerners"
   IRE_under_developed_navy:0 "Under Developed Navy"
   IRE_under_developed_navy_desc:0 "Due to being a small economy the Navy of Ireland is very smalled and under developed. We lack modern ships and things related. We should work on that."
+  IRE_lack_of_control:0 "Lack of control"
+  IRE_lack_of_control_desc:0 "The government has a lack of control over their citizens. This can lead to all kinds of issues including a coup if its gets too bad."
+  IRE_lack_of_free_speech:0 "Lack of free speech"
+  IRE_lack_of_free_speech_desc:0 "As a democratic nation the citizens of Ireland have the right of free speech. The government has now arrested people for speaking up. This can be bad, leading to all types of things including people rising up against the government. "
 
   ## Characters
   IRE_thomas_murphy:0 "Thomas 'Slab' Murphy"
@@ -144,7 +148,10 @@
   ## Country Events
   Ireland.1.d:0 "With the rise of terror in Northern Ireland, many videos promoting Irish unity have surfaced online. These videos are believed to have first been spread around on a social app called 'Discord'. They then started getting spread on other social media apps, many youths getting involved due to this. People are unsure on how this will effect the current situation but many people are claiming this is the return of The Troubles."
   Ireland.2.d:0 "Rumours of the IRA's return have been going around many small towns at the momemt. Lots of people are saying this is a good thing after the poor handling of the troubles. However, many people are saying this is really bad and they need to go back into hiding or be arrested for all the things they have done. Either way it will be down to the government to handle."
+  Ireland.3.d:0 "The results from the election have come back as a win for Sinn Fein!"
 
   ## News Events
   Ireland_news.1.d:0 "A car bomb has been set off in Belfast, Northern Ireland. Emergency services arrived on scene soon after the explosion, as well as British Armed Forces stationed nearby. A bomb disposal unit cleared the car of any more explosives and took any evidence of the bomb that was left, safely with them. Paramedics that arrived declared 83 people injured and 11 dead. Nobody is yet to take responsibility for this act of terror however the British Government have set their suspiscions on the IRA after their recent return to the world."
   Ireland_news.2.d:0 "A bomb was set off today at the Town hall in Londonderry, Northern Ireland. Emergency Servies and British Armed Forces arrived to the scene approximately 10 minutes after the bombing. British bomb disposal units entered first and cleared the area of any more bombs as British Armed Forces patrolled the area in case of another attack. Paramedics have said there is between 50-75 people in critical condition and another 150-200 dead, many of which high officials in the Londonderry council. The British once again are suspecting that the IRA are behind this and after the sudden increase of bombings in Northern Ireland many other people are suspecting the same thing."
+  Ireland_news.3.d:0 "The results from the election have come back as a win for the Irish Communist Party!"
+  Ireland_news.4.d:0 "The results from the election have come back as a win for the Democratic Unionist Party!""

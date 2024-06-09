@@ -37,7 +37,7 @@ country_event = {
 	option = { 
 		name = "Leave them be"
 		ai_chance = { factor = 50 }
-		add_stability = -0.10
+		add_stability = -0.05
 		add_political_power = -50
 		hidden_effect = {
 			add_timed_idea = {
@@ -49,8 +49,8 @@ country_event = {
 	option = {
 		name = "ARREST THEM NOW!"
 		ai_chance = { factor = 50 }
-		add_political_power = 50
-		add_stability = -0.05
+		add_political_power = -50
+		add_stability = 0.03
 		hidden_effect = {
 			add_timed_idea = {
 				idea = IRE_lack_of_free_speech
@@ -58,4 +58,19 @@ country_event = {
 			}
 		}
 	}	
+}
+
+country_event = {
+	id = Ireland.3
+	title = "Ireland stays with Sinn Fein"
+	desc = Ireland.3.d
+	picture = GFX_sinnfein
+	
+	is_triggered_only = yes
+	
+	option = { 
+		name = "Cool!"
+		ai_chance = { factor = 50 }
+		add_political_power = 50
+	}
 }

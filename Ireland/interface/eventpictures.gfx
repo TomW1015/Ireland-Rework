@@ -19,3 +19,18 @@ spriteTypes = {
 		name = "GFX_ira"
 		texturefile = "gfx/event_pictures/ira.dds"
 	}
+	
+	spriteType = {
+		name = "GFX_sinnfein"
+		texturefile = "gfx/event_pictures/sinn_fein.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_communists"
+		texturefile = "gfx/event_pictures/communists.dds"
+	}
+	
+	spriteType = {
+		name = "GFX_DUP"
+		texturefile = "gfx/event_pictures/DUP.dds"
+	}

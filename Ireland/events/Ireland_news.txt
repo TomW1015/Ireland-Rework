@@ -65,3 +65,37 @@ news_event = {
 		}
 	}
 }
+
+news_event = {
+	id = Ireland_news.3
+	title = "Communists win the election"
+	desc = Ireland_news.3.d
+	picture = GFX_communists
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "COMMUNISTS?!?!?!"
+		ai_chance = { factor = 50 }
+		add_political_power = 50
+	}
+}
+
+news_event = {
+	id = Ireland_news.4
+	title = "Democrats win the election"
+	desc = Ireland_news.4.d
+	picture = GFX_DUP
+	
+	major = yes
+	
+	is_triggered_only = yes
+	
+	option = {
+		name = "Finally, actual democracy"
+		ai_chance = { factor = 50 }
+		add_political_power = 50
+	}
+}
