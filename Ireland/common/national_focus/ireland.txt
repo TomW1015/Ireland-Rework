@@ -1329,11 +1329,10 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				add_tech_bonus = {
+					name = bomber_bonus
+					bonus = 0.25
+					category = tactical_bomber
 				}
 			}
 
@@ -1356,16 +1355,11 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_equipment_to_stockpile = {
-					type = fighter_equipment_3
-					amount = 30
-					producer = USA
-				}
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				add_tech_bonus = {
+					name = IRE_Airforce_bonus
+					bonus = 0.50
+					uses = 1
+					category = light_fighter
 				}
 			}
 
@@ -1388,11 +1382,10 @@ focus_tree = {
 			available = {}
 	
 			completion_reward = {
-				add_doctrine_cost_reduction = {
-					name = air_doctrine_bonus
-					cost_reduction = 0.3
-					uses = 2
-					category = air_doctrine
+				add_equipment_to_stockpile = {
+					type = transport_plane_equipment
+					amount = 30
+					producer = ENG
 				}
 			}
 
@@ -1671,6 +1664,166 @@ focus_tree = {
 				}
 			}
 	
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_russian_cas
+			icon = GFX_focus_ireland_british_reconn
+			prerequisite = { focus = IRE_russian_bombers }
+	
+			x = -1
+			y = 1
+			relative_position_id = IRE_russian_bombers
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = CAS_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_russian_bombers_one
+			icon = GFX_focus_ireland_british_reconn
+			prerequisite = { focus = IRE_russian_bombers }
+	
+			x = 1
+			y = 1
+			relative_position_id = IRE_russian_bombers
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_learn_from_russians
+			icon = GFX_focus_ireland_learn_from_russian
+			prerequisite = { focus = IRE_russian_bombers_one }
+			prerequisite = { focus = IRE_russian_cas }
+	
+			x = 0
+			y = 2
+			relative_position_id = IRE_russian_bombers
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_learn_from_brits
+			icon = GFX_focus_ireland_learn_from_brits
+			prerequisite = { focus = IRE_british_transport }
+			prerequisite = { focus = IRE_british_recon }
+	
+			x = 0
+			y = 2
+			relative_position_id = IRE_british_maritime_air
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_develop_ground_forces
+			icon = GFX_focus_ireland_armed_forces
+			prerequisite = { focus = IRE_learn_from_brits }
+			prerequisite = { focus = IRE_learn_from_russians }
+			prerequisite = { focus = IRE_learn_from_the_best }
+
+			x = 0
+			y = 2
+			relative_position_id = IRE_learn_from_russians
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
+			ai_will_do = {
+				factor = 10
+			}
+		}
+
+		focus = {
+			id = IRE_merica
+			icon = GFX_focus_ireland_learn_from_brits
+			prerequisite = { focus = IRE_develop_ground_forces }
+	
+			x = -4
+			y = 1
+			relative_position_id = IRE_develop_ground_forces
+
+			cost = 10
+
+			available = {}
+	
+			completion_reward = {
+				add_equipment_to_stockpile = {
+					type = strat_bomber_equipment_2
+					amount = 30
+					producer = SOV
+				}
+			}
+
 			ai_will_do = {
 				factor = 10
 			}

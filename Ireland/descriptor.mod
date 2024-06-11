@@ -7,4 +7,4 @@ dependencies={
 	"Novum Vexillum Global Conflict"
 }
 name="Ireland"
-supported_version="1.14.5"
+supported_version="1.14.6"

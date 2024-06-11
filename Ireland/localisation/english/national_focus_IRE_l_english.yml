@@ -118,7 +118,16 @@
   IRE_anti_russia_agenda_desc:0 "Adopt the thoughts and ways of the westeners"
   IRE_communist_nation:0 "A Communist Nation"
   IRE_communist_nation_desc:0 "Thank god we got rid of those nationalists"
-
+  IRE_learn_from_russians:0 "Learn from the Russians"
+  IRE_learn_from_russians_desc:0 "Maybe we should take advice from a nation with 5th generation fighter capabilities."
+  IRE_russian_cas:0 "Russian CAS"
+  IRE_russian_cas_desc:0 "They had the famous SU-25 afterall"
+  IRE_russian_bombers_one:0 "Advanced Russian Bombers"
+  IRE_russians_bombers_one_desc:0 "NATO are scared of Russias bombers i think we can trust them."
+  IRE_learn_from_brits:0 "Learn from the brits"
+  IRE_learn_from_brits_desc:0 "Learn from the tea drinkers across the channel"
+  IRE_develop_ground_forces:0 "Develop the Armed Forces"
+  IRE_develop_ground_forces_desc:0 "Develop our Armed forces"
 
   ## Ideas
   IRE_Good_Friday:0 "Good Friday Agreement"

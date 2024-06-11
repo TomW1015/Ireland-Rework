@@ -201,7 +201,22 @@ spriteTypes = {
 	name = "GFX_focus_ireland_anti_china_agenda"
 	texturefile = "gfx/interface/goals/ireland/focus_ireland_anti_china_agenda.dds"			
 	}
-	
+
+	SpriteType = {
+		name = "GFX_focus_ireland_learn_from_russian"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_learn_from_russian.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_ireland_learn_from_brits"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_learn_from_brits.dds"			
+	}
+
+	SpriteType = {
+		name = "GFX_focus_ireland_armed_forces"
+		texturefile = "gfx/interface/goals/ireland/focus_ireland_armed_forces.dds"			
+	}
+
 	#### Generic continuous goal icons
 
 	SpriteType = {
